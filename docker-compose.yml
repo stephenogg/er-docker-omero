@@ -15,7 +15,10 @@ services:
   omeroserver:
     # This container uses the tag for the latest server release of OMERO 5
     # To upgrade to the next major release, increment the major version number
-    image: "openmicroscopy/omero-server:5"
+    #Build the image from a dockerfile that includes copying hte Figure_To_PDF.py file from omero-figure
+    #to the server scripts directory. 
+    #image: "openmicroscopy/omero-server:5"
+    build: omero-server
     environment:
       CONFIG_omero_db_host: database
       CONFIG_omero_db_user: omero
