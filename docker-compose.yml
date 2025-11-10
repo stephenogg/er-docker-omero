@@ -41,6 +41,7 @@ services:
     image: "openmicroscopy/omero-web-standalone:5"
     environment:
       OMEROHOST: omeroserver
+      CONFIG_omero_web_login__logo: http://www.kcl.ac.uk/SiteElements/Images/KCLlogo130.gif
     networks:
       - omero
     ports:
