@@ -29,7 +29,7 @@ services:
       - "4064:4064"
     volumes:
       - "omero:/OMERO"
-       - "logs:/opt/omero/server/OMERO.server/var"
+      - "logs:/opt/omero/server/OMERO.server/var"
     ulimits:
       nofile:
         soft: 8192
