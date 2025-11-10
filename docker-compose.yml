@@ -42,6 +42,7 @@ services:
     environment:
       OMEROHOST: omeroserver
       CONFIG_omero_web_login__logo: http://www.kcl.ac.uk/SiteElements/Images/KCLlogo130.gif
+      CONFIG_omero_web_top__logo__link: https://devneuro.org/cdn/content/images/CDNlogo/Logo-CDN-Color-80h-c-notext.png
     networks:
       - omero
     ports:
