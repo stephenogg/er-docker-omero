@@ -20,7 +20,7 @@ services:
     #image: "openmicroscopy/omero-server:5"
     build: omero-server
     environment:
-      CONFIG_omero_data_dir: /OMERO/omero/
+     # CONFIG_omero_data_dir: /OMERO/omero/
       CONFIG_omero_db_host: database
       CONFIG_omero_db_user: omero
       CONFIG_omero_db_pass: omero
@@ -32,7 +32,7 @@ services:
       - "4063:4063"
       - "4064:4064"
     volumes:
-      - "omero:/OMERO/omero"
+      - "omero:/OMERO"
       - "logs:/opt/omero/server/OMERO.server/var"
     ulimits:
       nofile:
