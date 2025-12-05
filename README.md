@@ -27,6 +27,6 @@ For more configuration options see:
 - https://github.com/ome/omero-web-docker/blob/master/README.md
 
 
-## Devlopping OMERO
+## Devloping OMERO
 
-To use a docker compose to develop OMERO plugins, you can follow some guidelines described in this DEV-README
+To use ``docker compose`` to develop OMERO plugins, please follow the guidelines described in this DEV-README.
