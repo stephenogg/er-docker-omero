@@ -25,3 +25,8 @@ Then start the containers:
 For more configuration options see:
 - https://github.com/ome/omero-server-docker/blob/master/README.md
 - https://github.com/ome/omero-web-docker/blob/master/README.md
+
+
+## Developing OMERO
+
+To use ``docker compose`` to develop OMERO plugins, please follow the guidelines described in this DEV-README.
