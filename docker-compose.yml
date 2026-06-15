@@ -15,7 +15,7 @@ services:
   omeroserver:
     # This container uses the tag for the latest server release of OMERO 5
     # To upgrade to the next major release, increment the major version number
-    image: "openmicroscopy/omero-server:5.6.17"
+    image: "openmicroscopy/omero-server:5.6.18"
     environment:
       CONFIG_omero_db_host: database
       CONFIG_omero_db_user: omero
@@ -37,7 +37,7 @@ services:
   omeroweb:
     # This container uses the tag for the latest web release of OMERO 5
     # To upgrade to the next major release, increment the major version number
-    image: "openmicroscopy/omero-web-standalone:5.31.0"
+    image: "openmicroscopy/omero-web-standalone:5.31.1"
     environment:
       OMEROHOST: omeroserver
       CONFIG_omero_web_login__logo: http://www.kcl.ac.uk/SiteElements/Images/KCLlogo130.gif
