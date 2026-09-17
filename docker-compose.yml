@@ -39,7 +39,7 @@ services:
   omeroweb:
     # This container uses the tag for the latest web release of OMERO 5
     # To upgrade to the next major release, increment the major version number
-    image: "openmicroscopy/omero-web-standalone:5.31.1"
+    image: "openmicroscopy/omero-web-standalone:5.33.1"
     restart: unless-stopped
     environment:
       OMEROHOST: omeroserver
